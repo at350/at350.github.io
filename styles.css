@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #222;
+    background: #f7f5f0;
+}
+
+a {
+    color: #0499ff;
+}
+
+a:hover {
+    color: #6633ff;
+}
+
+/* Section Styles */
+
+.topbar {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+.topbar-items {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.topbar-items li {
+    padding: 5px 10px 10px 10px;
+}
+.topbar-items a {
+    transition: all 0.5s;
+}
+.topbar-items a:hover {
+    color: white;
+}
+
+header {
+    text-align: center;
+    background: url("nyc.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+header {
+    line-height: 1.5;
+}
+
+header .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all 0.5s;
+}
+
+header .profile-image:hover {
+    transform: scale(1.2) rotate(720deg);
+}
+
+.tag {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: table;
+    margin: 10px auto;
+}
+
+.location {
+    background-color: #222;
+    color: white;
+}
+
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-right: 4px solid #ccc;
+    border-radius: 6px;
+	top:0;
+	bottom: 0;
+	left: 0;
+    right: 0;
+    margin-top: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.card:hover {
+    border-color: #ff99ff;
+}
+
+footer {
+    width: 100%;
+    min-height: 30px;
+    padding-bottom: 10px;
+}
+
+.bard {
+    display: inline-flex;
+}
